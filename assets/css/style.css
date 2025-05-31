@@ -8,6 +8,7 @@
     --secondary-color:#586F7C; 
     --highlight-color:#FFFFFF; 
     --highlight-color-light:#71B48D; 
+    --highlight-color-dark:#BA3F1D;
 }
 
 /* General */
@@ -17,6 +18,7 @@ body{
     padding-top: 19px;
     display: flex;
     flex-wrap: wrap;
+
 }
 
 h1, h2, h3{
@@ -72,6 +74,7 @@ p{
 
 #best-practices .list-group-item:hover{
     background-color:var(--highlight-color-light);
+    color:black;
 }
 
 #best-practices h2{
@@ -96,6 +99,14 @@ p{
     background-color:var(--highlight-color-light);
     color:var(--primary-color);
 }
+
+/* Footer */
+
+footer{
+    background-color: var(--secondary-color);
+    color:var(--highlight-color);
+}
+
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width:768px){
