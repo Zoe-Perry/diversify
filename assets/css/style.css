@@ -40,6 +40,11 @@ p{
     font-weight:bolder;
 }
 
+/* Navbar */
+#navbar{
+    background-color: var(--secondary-color);
+}
+
 /* Header */
 
 #header{
