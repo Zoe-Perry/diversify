@@ -17,7 +17,7 @@ body{
     background-color: var(--primary-color);
     padding-top: 19px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 
 }
 
@@ -58,9 +58,9 @@ p{
 /* Header */
 
 #header{
-    background:url(../images/header-image2.jpg) no-repeat 50% 25% / cover;
+    background:url(../images/header-image2.jpg) no-repeat 50% 35% / cover;
     background-color: var(--primary-color);
-    width:100%;
+    /* width:100%; */
     min-height:350px;
 }
 
@@ -124,10 +124,10 @@ footer{
 }
 
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query: tablets and larger (768px and up)
 @media screen and (min-width:768px){
 
     #list #links{
         width:50%;
     }
-}
+} */
