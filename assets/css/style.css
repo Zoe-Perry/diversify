@@ -3,29 +3,41 @@
 
 :root{
     --primary-font:"Roboto Flex", sans-serif;
-    --secondary-font:"Poiret One", cursive;
-    --primary-color:#0B032D; /* dark blue */
-    --secondary-color:#96705B; /*brown */
-    --highlight-color:#016FB9; /* light blue */
-    --highlight-color-light:#9ED0E6; /* lighter blue */
+    --secondary-font:"Poiret One", sans-serif;
+    --primary-color:#22031F; 
+    --secondary-color:#586F7C; 
+    --highlight-color:#FFFFFF; 
+    --highlight-color-light:#71B48D; 
 }
 
 /* General */
 
 body{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     padding-top: 19px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 h1, h2, h3{
     font-family: var(--secondary-font);
-    color: var(--highlight-color);
+    color: var(--highlight-color-light);
     font-weight: bold;
 }
 
 p{
     font-family: var(--primary-font);
     color:var(--highlight-color)
+}
+
+.card{
+    background-color:var(--secondary-color) ;
+}
+
+.card-subtitle{
+    color:var(--highlight-color-light);
+    font-family: var(--secondary-font);
+    font-weight:bolder;
 }
 
 /* Header */
@@ -45,4 +57,16 @@ p{
 
 #information .card p{
     text-align: left;
+}
+
+/* Links section */
+#links .card{
+    margin:10px;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width:768px){
+    #list #links{
+        width:50%;
+    }
 }
