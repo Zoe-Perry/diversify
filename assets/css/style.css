@@ -5,7 +5,7 @@
     --primary-font:"Roboto Flex", sans-serif;
     --secondary-font:"Poiret One", cursive;
     --primary-color:#0B032D; /* dark blue */
-    --secondary-color:#8E4162; /*dark magenta */
+    --secondary-color:#96705B; /*brown */
     --highlight-color:#016FB9; /* light blue */
     --highlight-color-light:#9ED0E6; /* lighter blue */
 }
@@ -14,12 +14,18 @@
 
 h1, h2, h3{
     font-family: var(--secondary-font);
-    color: var(--highlight-color);
+    color: black;
 }
 
 /* Header */
 
-.header{
-    background-image: url(../images/header-image.jpg);
-    background: var(--primary-color);
+#header{
+    background-color: var(--primary-color);
+    width:100%;
+    padding-top: 50px;
+}
+
+.header-title{
+    border: 2px solid black;
+    background-color: rgba(255,255,255,0.5);
 }
