@@ -64,6 +64,17 @@ p{
     text-align: left;
 }
 
+/* Best Practices Section */
+#best-practices .list-group-item{
+    background-color: var(--secondary-color);
+    color:var(--highlight-color);
+}
+
+#best-practices .list-group-item:hover{
+    background-color:var(--highlight-color-light);
+}
+
+
 /* Links section */
 #links .card{
     margin:10px;
