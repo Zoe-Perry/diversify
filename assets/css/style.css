@@ -74,10 +74,27 @@ p{
     background-color:var(--highlight-color-light);
 }
 
+#best-practices h2{
+    font-weight: 700;
+}
+
+#best-practices i{
+    color:var(--primary-color);
+}
 
 /* Links section */
 #links .card{
     margin:10px;
+}
+
+#links .btn{
+    background-color:var(--primary-color);
+    color:var(--highlight-color);
+}
+
+#links .btn:hover{
+    background-color:var(--highlight-color-light);
+    color:var(--primary-color);
 }
 
 /* Media query: tablets and larger (768px and up) */
