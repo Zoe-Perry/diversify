@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#information">Information</a>
                     <a class="nav-link" href="#">Pricing</a>
                     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                 </div>
@@ -48,10 +48,10 @@
         </div>
     </header>
 
-    <div class="container section">
+    <div id="information" class="container section">
         <div class="row text-center">
             <h2>Information</h2>
-            <div class="col-12 col-lg-6 col-xl-3 p-2">
+            <div class="col-12 col-md-6 col-xl-3 p-2">
                 <div class="card">
                     <div class="card-body">
                         <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 col-xl-3 p-2">
+            <div class="col-12 col-md-6 col-xl-3 p-2">
                 <div class="card">
                     <div class="card-body">
                         <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 col-xl-3 p-2">
+            <div class="col-12 col-md-6 col-xl-3 p-2">
                 <div class="card">
                     <div class="card-body">
                         <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6 col-xl-3 p-2">
+            <div class="col-12 col-md-6 col-xl-3 p-2">
                 <div class="card">
                     <div class="card-body">
                         <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
@@ -90,10 +90,42 @@
         </div>
     </div>
 
+    <div id="list" class="container section">
+        <div class="row">
+                    <h2 class="text-center">List</h2>
+        <ul class="list-group">
+            <li class="list-group-item">An item</li>
+            <li class="list-group-item">A second item</li>
+            <li class="list-group-item">A third item</li>
+            <li class="list-group-item">A fourth item</li>
+            <li class="list-group-item">And a fifth one</li>
+        </ul>
+        </div>
+    </div>
 
 
 
-
+    <!-- JavaScript code to ensure the Bootstrap mobile navbar collapses when navigating to in-page links -->
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
     <!-- Favicon JS -->
     <script src="https://kit.fontawesome.com/af2f228ca5.js" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
