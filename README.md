@@ -53,6 +53,8 @@ The website has been deployed through Github Pages. It requires no additional ap
 
 Upon setting out upon producing my website I felt that the wireframes indicated an adequate level of content to be included. Upon reflection, I feel like cards were a poor choice to lay out my information section, limiting the content of the page and leaving room to be desired. If I were to create a website similar to this again I would likely create further sections within the information section to allow for greater, and more engaging content to be included.
 
+The list items stretch out too far leaving a lot of empty space on larger devices. If I had the time I would've liked to add an image here to break up the content on empty space, this would've also broken up content on smaller devices for better reading even with the image below the list.
+
 ## Credits
  
 - Wireframes created through Balsamiq (https://balsamiq.com/)
