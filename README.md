@@ -35,6 +35,14 @@ https://zoe-perry.github.io/diversify/
 
 ## User stories
 
+- As the site owner, I need easy navigation and a user-friendly, appealing design, so users can find information quickly and efficiently in a pleasant to read manner on any device.
+
+- As a visitor to the site, I want the information presented to me to be clear, concise, and organised, so I don't have to struggle to find what I'm looking for.
+
+- As a user I want links to be clear and easy to identify so I can quickly access any additional resources
+
+- As a visitor to the site I want information easy to access and read, with key points highlighted in a list for me to find them easily so I can swiftly find what I'm looking for.
+
 ## UX Design
 ### Wireframes
 ![Mobile wireframe](./assets/readme-assets/mobile-wf.PNG)
