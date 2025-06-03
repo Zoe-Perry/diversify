@@ -102,6 +102,10 @@ This is the first lighthouse test I ran with the main issue being performance, p
 
 This was the second lighthouse test I ran after converting my header image to webp, which increased performance to an acceptable level.
 
+![Third lighthouse test](./assets/readme-assets/lighthouse-3.PNG)
+
+This is the third lighthouse test I ran after adding an aria-label to the home link at the top left of my page.
+
 ## Reflections
 
 Upon setting out upon producing my website I felt that the wireframes indicated an adequate level of content to be included. Upon reflection, I feel like cards were a poor choice to lay out my information section, limiting the content of the page and leaving room to be desired. If I were to create a website similar to this again I would likely create further sections within the information section to allow for greater, and more engaging content to be included.
