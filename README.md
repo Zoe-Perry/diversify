@@ -49,6 +49,10 @@ The website has been deployed through Github Pages. It requires no additional ap
 
 ## Testing and Validation
 
+![HTML validation](./assets/readme-assets/html-validation.PNG)
+
+![CSS validation](./assets/readme-assets/css-validation.PNG)
+
 ## Reflections
 
 Upon setting out upon producing my website I felt that the wireframes indicated an adequate level of content to be included. Upon reflection, I feel like cards were a poor choice to lay out my information section, limiting the content of the page and leaving room to be desired. If I were to create a website similar to this again I would likely create further sections within the information section to allow for greater, and more engaging content to be included.
@@ -67,6 +71,8 @@ The list items stretch out too far leaving a lot of empty space on larger device
 - Github copilot used for coding debugging (https://github.com/)
 - Javascript to make the navbar menu close upon selecting an option on mobile supplied by Code Institute (https://codeinstitute.net/)
 - Image compression done through squoosh (https://squoosh.app/)
+- HTML validation performed through w3 (https://validator.w3.org/)
+- CSS validation performed through w3 (https://jigsaw.w3.org/css-validator/)
 
 ## References
 
