@@ -53,7 +53,7 @@ The website has been deployed through Github Pages. It requires no additional ap
 
 Upon setting out upon producing my website I felt that the wireframes indicated an adequate level of content to be included. Upon reflection, I feel like cards were a poor choice to lay out my information section, limiting the content of the page and leaving room to be desired. If I were to create a website similar to this again I would likely create further sections within the information section to allow for greater, and more engaging content to be included.
 
-## References
+## Credits
  
 - Wireframes created through Balsamiq (https://balsamiq.com/)
 - Assistance in colour scheme cohesion provided by coolors (https://coolors.co/)
@@ -63,13 +63,16 @@ Upon setting out upon producing my website I felt that the wireframes indicated 
 - Bootstrap code used for many of the elements (https://getbootstrap.com/)
 - Github used for repository and deployment (https://github.com/)
 - Github copilot used for coding debugging (https://github.com/)
+- Javascript to make the navbar menu close upon selecting an option on mobile supplied by Code Institute (https://codeinstitute.net/)
+- Image compression done through squoosh (https://squoosh.app/)
 
-## Credits
+## References
 
 - Header image used from Istmed.ac.uk (https://www.lstmed.ac.uk/equality-and-diversity-policy-statement)
 
-### Content Credits
+### Content References
 
 - https://www.cio.com/article/228581/diversity-and-inclusion-8-best-practices-for-changing-your-culture.html
 - https://www.acas.org.uk/improving-equality-diversity-and-inclusion
 - https://www.cii.co.uk/media/10120044/diversity-inclusion-guiding-principles-for-key-stakeholders.pdf?srsltid=AfmBOopEZFlI5CwF-BXq_5ka58KA5D18mSnxu_nXdLLxCQF3VkxwZe6O
+- https://humanfocus.co.uk/blog/what-are-the-principles-of-equality-and-diversity/
