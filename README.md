@@ -26,16 +26,19 @@ https://zoe-perry.github.io/diversify/
 
 - As a visitor to the site, I want the information presented to me to be clear, concise, and organised, so I don't have to struggle to find what I'm looking for.
 
-- As a user I want links to be clear and easy to identify so I can quickly access any additional resources
+- As a user I want links to be clear and easy to identify so I can quickly access any additional resources.
 
 - As a visitor to the site I want information easy to access and read, with key points highlighted in a list for me to find them easily so I can swiftly find what I'm looking for.
 
 ## UX Design
 ### Wireframes
+#### Mobile Wireframe
 ![Mobile wireframe](./assets/readme-assets/mobile-wf.PNG)
 
+#### Tablet Wireframe
 ![Tablet wireframe](./assets/readme-assets/tablet-wf.PNG)
 
+#### Desktop Wireframe
 ![Desktop wireframe](./assets/readme-assets/desktop-wf.PNG)
 
 For design I began with my wireframes, starting with mobile and allocating space to each section while determining how I'd like to lay it out. I then worked my way up to ensure that appropriate space was taken up by each section as the website expanded onto larger devices.
@@ -50,7 +53,7 @@ In the website I selected two fonts, mostly to allow headings to stand out. I en
 ## Features
 
 1. A navbar allowing for quick movement to any element on the page
-2. A header section containing a background image, title, subtitle, and introductory segment.
+2. A header section containing a background image, title, subtitle, and introductory segment
 3. A section containing cards which contain information
 4. A section containing a list
 5. A section containing cards comprised of buttons that link to external websites and small amounts of text
