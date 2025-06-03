@@ -58,7 +58,7 @@ p{
 /* Header */
 
 #header{
-    background:url(../images/header-image2.jpg) no-repeat 50% 35% / cover;
+    background:url(../images/header-image.jpg) no-repeat 50% 35% / cover;
     background-color: var(--primary-color);
     /* width:100%; */
 }
