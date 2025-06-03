@@ -49,6 +49,10 @@ The website has been deployed through Github Pages. It requires no additional ap
 
 ## Testing and Validation
 
+## Reflections
+
+Upon setting out upon producing my website I felt that the wireframes indicated an adequate level of content to be included. Upon reflection, I feel like cards were a poor choice to lay out my information section, limiting the content of the page and leaving room to be desired. If I were to create a website similar to this again I would likely create further sections within the information section to allow for greater, and more engaging content to be included.
+
 ## References
  
 - Wireframes created through Balsamiq (https://balsamiq.com/)
