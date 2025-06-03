@@ -73,6 +73,7 @@ header p{
     background: rgba(255,255,255,0.25);
     padding-top: 15px;
     color:var(--primary-color);
+    font-size: large;
 }
 
 /* Information section */
@@ -130,6 +131,9 @@ footer{
         min-height:325px;
     }
 
+    header p{
+        font-size: larger;
+    }
 }
 
 /* Media query: extra-large screens and up (1200px and up) */
@@ -139,6 +143,10 @@ footer{
         min-height:375px;
     }
 
+    header p{
+        font-size:x-large
+    }
+    
 }
 
 /* Media query: extra-large screens and up (1400px and up) */
