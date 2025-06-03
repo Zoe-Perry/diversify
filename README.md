@@ -13,6 +13,26 @@
     Credits
     Reflections
 
+![View of website on all devices](./assets/readme-assets/amiresponsive.PNG)
+
+### Link to Live Website
+https://zoe-perry.github.io/diversify/
+
+## Table of Contents
+
+1. User stories
+2. UX Design
+    1. Wireframes
+    2. Colours and Fonts
+3. Features
+4. Deployment and Dependencies
+5. AI Implementation
+6. Testing and Validation
+7. Reflections
+8. Credits
+9. References
+    1. Content References
+
 ## User stories
 
 ## UX Design
@@ -41,17 +61,48 @@ In the website I selected two fonts, mostly to allow headings to stand out. I en
 5. A section containing cards comprised of buttons that link to external websites and small amounts of text
 6. A footer
 
-## Deployment
+## Deployment and Dependencies
 
 The website has been deployed through Github Pages. It requires no additional applications to be ran.
 
 ## AI Implementation
+
+![Asking copilot why my navbar has no background colour](./assets/readme-assets/ai-1.PNG)
+
+I was unsure as to why my navbar had no background colour after applying a style to it, so highlighted my html code to see if it could locate any problems. This didn't help as I had highlighted the wrong part of my code, as my styles would be in my css document.
+
+![Asking copilot why my css style was not applying to my navbar](./assets/readme-assets/ai-2.PNG)
+
+I then selected my css code to see if copilot could locate the issue, and found that I had forgotten to add the targetted ID to my navbar for the styles to be applied.
+
+![Asking copilot how to make my cards the same size with varying content](./assets/readme-assets/ai-3.PNG)
+
+I was struggling to make my cards all the same size in my information section, and asked copilot. It offered a solution of applying a height to all cards, however in the past I have found this can cut off content on certain devices if the content takes up more space than the fixed size of the card.
+
+![Asking copilot how to make my cards the same size without cutting off any content](./assets/readme-assets/ai-4.PNG)
+
+I refined my query and used this solution from copilot which gave my cards a uniform appearance I desired without cutting off any content. I read through and tested the code on one card prior to testing it on all the cards and making sure there were no errors before officially committing it to my website.
+
+![Asking copilot if there are any issues in my code I can optimise](./assets/readme-assets/ai-5.PNG)
+
+I finally asked copilot if there were any issues in my code that it could detect, and it offered a couple of useful suggestions that I had missed. I again tested the code for card height on one card before testing it on all of them, and then committing the code once I had ensured it all worked correctly.
+
+Overall I probably didn't utilise AI as much as I should have, however when I did use it I found it beneficial to my code. The amount I used it felt natural to me, but that isn't to say it wouldn't have provided further benefits had I attempted to use it more.
+
 
 ## Testing and Validation
 
 ![HTML validation](./assets/readme-assets/html-validation.PNG)
 
 ![CSS validation](./assets/readme-assets/css-validation.PNG)
+
+![First lighthouse test](./assets/readme-assets/lighthouse-1.PNG)
+
+This is the first lighthouse test I ran with the main issue being performance, particularly the load time of the header of the page.
+
+![Second lighthouse test](./assets/readme-assets/lighthouse-2.PNG)
+
+This was the second lighthouse test I ran after converting my header image to webp, which increased performance to an acceptable level.
 
 ## Reflections
 
@@ -73,6 +124,7 @@ The list items stretch out too far leaving a lot of empty space on larger device
 - Image compression done through squoosh (https://squoosh.app/)
 - HTML validation performed through w3 (https://validator.w3.org/)
 - CSS validation performed through w3 (https://jigsaw.w3.org/css-validator/)
+- Image of website at the beginning of readme provided by amiresponsive (https://ui.dev/amiresponsive)
 
 ## References
 
